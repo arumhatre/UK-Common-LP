@@ -541,6 +541,14 @@ padding-inline-start: 0px;
    margin-bottom: 0;
 }
 
+
+@media(max-width:600px){
+    .doc_infO_div .info_div_doctors_sub{
+        padding: 0 15px 15px;
+    }
+}
+
+
 /*==========================================*/
 /* Why DB section css*/
 /*==========================================*/
@@ -838,6 +846,7 @@ ul.nptabbs{display:none}
     opacity: 1;
     visibility: visible;
     height: auto;
+    padding: 5px;
 }
 
 @media all and (min-width: 800px) {
@@ -886,7 +895,7 @@ ul.nptabbs{display:none}
 /*==========================================*/
 .faq_sec_pad{padding-top:50px;padding-bottom:50px}
 .faq-box-cls{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #b1b1b1}
-.panel-title .btn-link:hover{color: #554a46;}
+.panel-title .btn-link:hover{color: #3096d3;}
 .panel-title{margin-bottom:0;text-decoration:none!important}
 .panel-title a{text-decoration:none!important;color:#3096d3;font-size:21px;font-weight:600;line-height:24px;padding:0}
 .panel-title a.collapsed {
@@ -904,7 +913,7 @@ ul.nptabbs{display:none}
 .para-faq{padding:10px 0 0 0;font-size:16px;color:#212121}
 .panel-title .btn-link:focus{box-shadow:none}
 @media screen and (max-width:600px){
-.panel-title a{width:300px;text-decoration:none!important;color:#554a46;font-size:18px;font-weight:600;line-height:21px;padding:0}
+.panel-title a{width:300px;text-decoration:none!important;color:#3096d3;font-size:18px;font-weight:600;line-height:21px;padding:0}
 .panel-title a.collapsed{text-decoration:none!important;color:#212121;font-size:16px;font-weight:500;line-height:21px;padding:0}
 .para-faq{padding:10px 0 0 0;font-size:16px;color:#212121}
 .faq-box-cls{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #b1b1b1}
