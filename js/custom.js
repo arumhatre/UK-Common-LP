@@ -33,6 +33,7 @@ const carouselConfigs = {
     autoplay: true,
     autoplayTimeout: 7000,
     smartSpeed: 400,
+    autoHeight: true, 
     navText: [
       "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
       "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />"
