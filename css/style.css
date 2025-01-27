@@ -546,6 +546,18 @@ padding-inline-start: 0px;
     .doc_infO_div .info_div_doctors_sub{
         padding: 0 15px 15px;
     }
+
+    .doc_infO_div li {
+    display: -webkit-inline-box;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.before_after_slider .ourdoctor_slider .owl-item img {
+        width: 50%;
+         margin: 0 10px 0 0; 
+    }
+
 }
 
 
