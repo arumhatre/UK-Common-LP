@@ -47,7 +47,7 @@ $(document).ready(function () {
       }
     },
     awards_slider: {
-      loop: true,
+      // loop: true,
       responsiveClass: true,
       nav: true,
       margin: 2,
@@ -59,11 +59,11 @@ $(document).ready(function () {
         "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />"
       ],
       responsive: {
-        0: { items: 1 },
-        600: { items: 1 },
-        768: { items: 3 },
-        1024: { items: 4 },
-        1200: { items: 4 }
+        0: { items: 1, loop: true }, // Loop enabled on mobile
+        600: { items: 1, loop: true }, // Loop enabled on small tablets
+        768: { items: 3, loop: true }, // Loop disabled on larger screens
+        1024: { items: 4, loop: false },
+        1200: { items: 4, loop: false }
       }
     }
   };

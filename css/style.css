@@ -133,7 +133,7 @@ header{background:#0073ae}
 /*.chat-popup .col-md-12{padding: 0 5px;}*/
 .chat-popup .form_custom_bg_testmonilas{padding: 15px 5px;}
 @media (max-width:600px){
-.open-button{height:60px;background-color:#1b75ab;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:50%;font-weight:600;line-height:18px;border-radius:0}
+.open-button{height:60px;background-color:#1b75ab;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px;border-radius:0}
 .open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
 .chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
 }
