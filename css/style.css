@@ -73,37 +73,95 @@ header{background:#0073ae}
 .img_banner_div img{margin-top: -75px;}
 }
 
-
 /*==========================================*/
 /* Form Form css*/
 /*==========================================*/
-.PCOS_div_new.form_section_div{margin-top:-40px}
-.PCOS_div_new .form_custom_bg_testmonilas{background:#fff;padding:20px;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
-.PCOS_div_new .testmonilas_form_custom label{position:absolute;top:35%;left:28px;transform:translateY(-50%);font-size:16px;color:#757575;pointer-events:none;transition:all .15s ease-out}
-.PCOS_div_new .mob_border_css label{left:15px!important}
-.PCOS_div_new .testmonilas_form_custom input{display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;font-size:16px;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
-.PCOS_div_new .mob_border_css input{border-radius:0 6px 6px 0!important;border-left:none!important}
-.PCOS_div_new .testmonilas_form_custom select{display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;font-size:16px;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:6px 0 0 6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
-.PCOS_div_new .testmonilas_form_custom input:focus,.PCOS_div_new .testmonilas_form_custom select:focus{border:1px solid #1d81c4;outline:0;background-color:#fff}
-.PCOS_div_new .testmonilas_form_custom input.has-value+label,.PCOS_div_new .testmonilas_form_custom input:focus+label,.PCOS_div_new .testmonilas_form_custom select.has-value+label,.PCOS_div_new .testmonilas_form_custom select:focus+label{top:-1px;font-size:11px;font-weight:500;color:#1d81c4;background-color:#fff;padding:5px 6px 0 6px}
-.PCOS_div_new .testmonilas_form_custom input:focus::-webkit-input-placeholder,.PCOS_div_new .testmonilas_form_custom select:focus::-webkit-input-placeholder{color:transparent}
-.PCOS_div_new .check_box_lable input{width:16px;height:auto;display:inline-flex;margin-left:0}
-.PCOS_div_new .check_box_lable label{padding-top:6px;font-size:12px;color:#212121!important;margin-bottom:0}
-.PCOS_div_new .form_custom_heading_testmonilas{margin-bottom:0;font-size:32px;text-align:left;font-weight:400;color:#212121;line-height:normal}
-.PCOS_div_new .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
-.PCOS_div_new .btn_custom_testmonilas{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5!important;text-transform:uppercase;border-radius:6px}
-@media(max-width:600px){
-.PCOS_div_new.form_section_div{margin-top:20px}
-.PCOS_div_new .form_section_div .container{border-radius:20px}
-.PCOS_div_new .form_custom_bg_testmonilas{width:100%;background:#fff;padding:20px 0;border-radius:20px}
-.PCOS_div_new .testmonilas_form_custom label{position:absolute;top:37%;left:28px;transform:translateY(-50%);font-size:16px;color:#757575;pointer-events:none;transition:all .15s ease-out}
-.PCOS_div_new .check_box_lable input{margin-right:6px}
-.PCOS_div_new .check_box_lable label{padding-top:0;font-size:10px;color:#212121!important;margin-bottom:10px;display:flex;align-items:start}
-.PCOS_div_new .btn_custom_testmonilas{font-size:16px}
-.PCOS_div_new .form_custom_heading_testmonilas{margin-bottom:12px;font-size:24px;text-align:center;font-weight:400;color:#212121;line-height:normal}
-.PCOS_div_new .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
-.PCOS_div_new .btn_custom_testmonilas{font-size:16px}
+.form_section_div{margin-top:-40px;z-index:1;position:relative}
+.form_custom_bg_testmonilas{background:#fff;padding:20px;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.form_custom_heading_testmonilas{margin-bottom:0px;font-size:28px;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.btn_custom_testmonilas{width:auto;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5!important;}
+.btn_custom_testmonilas:hover{color:#fff!important}
+.form-lable-new-form-css{font-size:14px;font-weight:500;color:#187fc3;margin-bottom:5px}
+.testmonilas_form_custom .form-group{margin-bottom:5px}
+.testmonilas_form_custom input,.testmonilas_form_custom select{outline:0;display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;font-size:16px;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.check_box_lable{margin-bottom: 10px}
+.check_box_lable input{width:12px;height:12px;display:inline-flex;margin:0 4px 0 0}
+.check_box_lable label{padding-top: 0px;
+    font-size: 12px;
+    color: #212121 !important;
+    margin-bottom: 0;
+    line-height: normal;
+    display: flex;
+    font-weight: 300;}
+.testmonilas_form_custom input:focus,.testmonilas_form_custom select:focus{border:1px solid #1d81c4;outline:0;box-shadow:none}
+.testmonilas_form_custom .form-control::placeholder{color:#495057;font-size:16px}
+.form_colum_custom{width:33.33%; padding: 0 15px}
+.custom_lable_cls{font-weight:500;color:#212121;margin-bottom:3px;font-size:14px}
+.btn_div_outside{
+	width: 30%;
 }
+@media(max-width:1400px){
+.btn_custom_testmonilas{font-size:14px}
+}
+@media(max-width:1200px){
+.form_custom_heading_testmonilas{margin-bottom:0px;font-size:21px;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.btn_custom_testmonilas{font-size:16px;margin-top:10px}
+.testmonilas_form_custom .form-group{margin-bottom:10px}
+.form_section_div{margin-top:30px}
+}
+@media(max-width:860px){
+.form_custom_heading_testmonilas{margin-bottom:0;font-size:26px;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.form_colum_custom{width:50%}
+}
+@media(max-width:600px){
+	.btn_div_outside {
+    width: 100%;
+    padding: 0 15px;
+}
+.form_custom_heading_testmonilas{margin-bottom:0px;font-size:24px;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.testmonilas_form_custom .form-group{margin-bottom:10px}
+.btn_custom_testmonilas{margin-top:0px;font-size:16px}
+.form_custom_bg_testmonilas{background:#fff;padding:20px 0;box-shadow:0 4px 15px rgb(175 173 173 / 18%); margin: auto; width: 98%}
+.form_section_div{margin-top:30px}
+.form_colum_custom, .form_custom_bg_testmonilas{width:100%}
+.btn_custom_testmonilas{width:auto;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5!important;}
+}
+
+/*==========================================*/
+/* Form Pop Up side css*/
+/*==========================================*/
+.form-check-label{font-size:10px}
+.open-btn-cls-new{background-color:#e70e24;color:#fff;font-size:20px;width:100%;text-decoration:none;padding:20px 0;height:60px;font-weight:600;font-size:16px;line-height:24px}
+.open-button{background-color:#1f83c5;color:#fff;padding:10px 12px;border:none;cursor:pointer;position:fixed;bottom:18px;right:19px;width:250px;font-weight:500;font-size:16px;line-height:20px;border-radius:6px}
+.chat-popup{width:350px;display:none;position:fixed;bottom:0;right:15px;z-index:9}
+.form-container .cancel{position:absolute;right:-14px;top:-22px;width:48px;height:48px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
+.form-container .btn:hover,.open-button:hover{opacity:1}
+.form-container .form_colum_custom{width:100%;margin-bottom:5px; }
+.form-container .btn_custom_testmonilas{width:100%;}
+.chat-popup .btn_div_outside{width: 100%; padding: 0 15px}
+/*.chat-popup .col-md-12{padding: 0 5px;}*/
+.chat-popup .form_custom_bg_testmonilas{padding: 15px 5px;}
+@media (max-width:600px){
+.open-button{height:60px;background-color:#1b75ab;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:50%;font-weight:600;line-height:18px;border-radius:0}
+.open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
+.chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
+}
+
+/*==========================================*/
+/* Form SUbmission Devider css*/
+/*==========================================*/
+.form_submission_devider{margin-top:50px}
+.form_submission_devider .container{background:url(../images/form_devider_bg.webp) bottom center no-repeat;background-size:cover;padding:30px}
+.form_submission_devider h2{font-size:36px;color:#0073ae;font-weight:500;margin-bottom:0;text-align:left}
+.form_submission_devider .Custom_devider_btn{width:100%;border:none;padding:8px;border-radius:6px;background-color:#1f83c5;color:#fff;font-size:18px;font-weight:600;}
+@media screen and (max-width:600px){
+.form_submission_devider .container{background:url(../images/form_devider_mob_bg.webp) bottom center no-repeat;background-size:cover;padding:30px}
+.form_submission_devider h2{font-size:26px;text-align:center;margin-bottom:20px}
+}
+
+
 
 /*==========================================*/
 /* Before After Images Slider css*/
@@ -149,8 +207,9 @@ header{background:#0073ae}
 .doc_infO_div h5{padding-top:20px;color:#212121;line-height:normal;font-size:21px;font-weight:600;margin-bottom:0}
 .doc_infO_div img{width:50px!important;box-shadow:none!important;margin-right:10px}
 .doc_infO_div p{color:#757575;line-height:normal;font-size:16px;font-weight:400;margin-bottom:0}
+.doc_infO_div .info_div_doctors_sub{padding: 0 20px}
 @media(max-width:600px){
-.doc_infO_div .info_div_doctors_sub{padding:0 15px 15px}
+.doc_infO_div .info_div_doctors_sub{padding:0 20px 15px}
 .doc_infO_div li{display:-webkit-inline-box;align-items:center;margin-bottom:10px}
 .before_after_slider .ourdoctor_slider .owl-item img{width:100%;margin:0 10px 0 0; box-shadow: none;}
 }
@@ -291,5 +350,5 @@ ul.nptabbs{display:none}
 .social-media a{background-color:#fff;border-radius:15px;padding:2px;margin:0 5px;font-weight:500}
 .call-btn{line-height:45px;border-top:4px solid #d98329;height:50px;text-decoration:none!important;color:#212121!important;background:#fdf2e6;font-weight:600;font-size:20px;position:fixed;z-index:99;bottom:0;left:0;width:100%}
 @media (max-width:600px){
-.footer{background:#0073ae;color:#fff;font-size:13px;padding:8px 0;font-weight:500!important}
+.footer{background:#262626;color:#fff;font-size:13px;padding:8px 0;font-weight:500!important; margin-bottom: 60px}
 }
